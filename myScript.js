@@ -1,6 +1,5 @@
-var replace = function() {
+function replace() {
 	var replacedOne = false;
-
 	var imageList = $("[href*='youtube'] > img")
 	if (imageList != undefined && imageList.parent() != undefined && imageList.parent().attr('href') != undefined) {
 		var videoID = imageList.parent().attr('href').replace(/.*v=+(.*)+&.*/, '$1')
@@ -25,8 +24,7 @@ var replace = function() {
 			}
 		}
 	}
-};
-
+}
 replace();
 
-$('a').click(replace);
+setTimeout(replace,8000);

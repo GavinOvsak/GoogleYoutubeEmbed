@@ -6,8 +6,9 @@
     "icons": { "16": "youtube16.png",
            "48": "youtube48.png",
           "128": "youtube128.png" },
-    "permissions": ["tabs", "http://*/*"],
+    "permissions": ["tabs"],
     "content_scripts" : [{
+        "run_at": "document_end",
         "matches" : [ "https://www.google.com/search*"],
         "js" : ["jquery-1.8.2.min.js", "myScript.js"]
     }]
