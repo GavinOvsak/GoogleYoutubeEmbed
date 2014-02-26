@@ -1,8 +1,8 @@
 {
-    "name": "Google Youtube Embed",
-    "description": "Make Youtube Videos Playable In Search",
+    "name": "Video Search Embed Tool",
+    "description": "Make YT Videos Playable In Search",
     "manifest_version": 2,
-    "version": "1.1",
+    "version": "1.2",
     "icons": { "16": "youtube16.png",
            "48": "youtube48.png",
           "128": "youtube128.png" },
